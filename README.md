@@ -1,2 +1,2 @@
 # rsschool-cv
-https://artvvr.github.io/rsschool-cv/cv
+https://artvvr.github.io/rsschool-cv
