@@ -70,4 +70,4 @@ Secondary education - School №1 of the city of Soligorsk. 2018-2022 Internetio
 
 * * *
 
-Made by: ARTVVR (Artur Metelskiy)
+Made by: ARTVVR (Artur Metelskiy) 
