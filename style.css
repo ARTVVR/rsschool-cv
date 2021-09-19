@@ -1,0 +1,416 @@
+.video-cvv{
+    width:100%;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+}
+.all{
+    font-family: 'Archivo Black', sans-serif;
+    overflow: hidden;
+    max-width: 1600px;
+    margin:0 auto;
+}
+.box{
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    color: #666;
+
+}
+h1, h2{
+    margin:0;
+}
+.sector1{
+    max-width: 100%;
+    background: #1A1A1A;
+    color:#DCC7B4;
+    flex:0 0 20%;
+    position: relative;
+}
+.sector2{
+    max-width: 100%;
+    background-image: url("/images/iam.jpg");
+    margin: 0 auto;
+    color:#DCC7B4;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    flex:0 0 26%;
+    min-height: 150px;
+}
+.sector3{
+    display:inline;
+    float:left;
+    max-width: 100%;
+    background: #1A1A1A;
+    color:#DCC7B4;
+    flex:0 0 54%;
+    position: relative;
+}
+.container-0{
+    display:flex;
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.container-2{
+    width: 55%;
+}
+.container-3{
+    
+    width: 56%;
+}
+ul,li{
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+.cv{
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(220,199,180);
+}
+.videos:hover{
+    background-color: #CD9245;
+    color:rgb(66, 66, 66);
+}
+hr{
+    border: 5px solid rgb(136, 134, 132);
+    background-color: rgb(136, 134, 132);
+}
+.contact-name-block{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 10px solid rgb(136, 134, 132);
+    border-bottom: 10px solid rgb(136, 134, 132);
+}
+.logo-avv{
+    margin-top:100px ;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    display: block;
+    margin-bottom: 120px;
+}
+.codew{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(220,199,180);
+}
+.videos{
+    margin-top: 50px;
+}
+.codew:hover{
+    background-color: #CD9245;
+    color:rgb(66, 66, 66);
+}
+.codew2{
+    text-decoration: none;
+}
+.logo-avv:hover{
+    transform: scale(1.03);
+}
+.logo-avvv{
+    width: 100%;
+}
+.h4-{
+    font-size: 20px;
+    color:#CD9245;
+    text-align: center;
+}
+.icon-e{
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+.information-3{
+    height: 150px;
+    margin-top:15px;    
+    color:rgb(66, 66, 66);
+    font-size: 20px;
+    text-align:center;
+}
+.education-block-2{
+    margin-left: 20px;
+}
+.contact-name{
+    text-align: center;
+    font-size: 40px;
+    line-height: 144px;
+}
+.contact-name-2{
+    text-align: center;
+    font-size: 40px;
+}
+ul.links li{
+    display: inline-block;   
+}
+.links{
+    font-size: 15px;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 10px;
+}
+.links li:hover{
+    transform: scale(1.3);
+}
+.contact-list{
+    color: #3A3A31;
+}
+.con:hover{
+    background-color: #CD9245;
+    color:rgb(66, 66, 66);
+}
+ul>li i {
+    width: 10%;
+  }
+.con{
+    color:rgb(66, 66, 66);
+    text-align: left;
+    max-width: 100%;
+}
+.me_title{
+    width: 100%;
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.me_subname{
+    text-align: center;
+    font-size: 15px;
+    color:rgb(44, 44, 44);
+    text-shadow: -10px 2px 30px black;
+}
+i{
+    color: rgb(220,199,180);
+}
+.me_name{
+    text-align: center;
+    text-shadow: -10px 2px 30px black;
+    font-size: 50px;
+}
+.information-4{
+    margin-top: 5%;
+    line-height: 40px;
+    font-size: 13px;
+    text-align: left;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+.info_suptitle{
+    color:#CD9245;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 70%;
+}
+.info_text{
+    text-align: center;
+    margin:18px;
+    font-size: 20px;
+    color:rgb(66, 66, 66);
+}
+/*--------------------------------------SECTOR-4---------------------*/
+
+.box-2{
+    display: flex;
+    border-top: 5px solid rgb(136, 134, 132);
+    width: 100%;
+    height: 48%;
+    background: #1A1A1A;
+}
+.sector4{
+    width: 46%;
+    height: 48%;
+}
+.sector5{
+    width: 54%;
+    height: 48%;
+}
+.javascript{
+    height: 375px;
+    font-size: 25px;
+}
+/*-----------------FOOTER----------------*/
+.foot-trans{
+    width:10%;
+}
+.foot-transs{
+    width:20%;
+}
+.box-3{
+    background-color: #74542b;
+    width: 100%;
+    margin:0 auto;
+    display: flex;
+}
+.foot{
+    text-align: center;
+    letter-spacing: 100px;
+}
+.foot-trans:hover{
+    transform: scale(1.03);
+}
+.foot-transs:hover{
+    transform: scale(1.03);
+}
+.artvvr{
+    color: rgb(65, 64, 64);
+    width: 100%;
+    background-color: #74542b;
+    text-align: center;
+}
+@media (max-width: 1200px){
+    .me_name{
+        font-size: 30px;
+    }
+    .me_subname{
+        font-size: 15px;
+    }
+    .contact-name{
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 992px){
+    .me_name{
+        font-size: 18px;
+    }
+    .me_subname{
+        font-size: 9px;
+    }
+    .contact-name{
+        font-size: 18px;
+    }
+    .contact-name-2{
+        font-size: 18px;
+    }
+    .info_suptitle{
+        font-size: 12px;
+    }
+    .info_text{
+        font-size: 18px;
+    }
+    .information-3{
+        font-size: 18px;
+    }
+    .con{
+        font-size: 9px;
+    }
+    .h4-{
+        font-size: 18px;
+    }
+    .links{
+        font-size: 12px;
+    }
+    .icon-e{
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 767px){
+    .sector1{
+        display: block;
+        position: relative;
+    }
+    .me_name{
+        margin-top: 50px;
+        font-size: 12px;
+    }
+    .me_subname{
+        font-size: 6px;
+    }
+    .contact-name{
+        font-size: 12px;
+    }
+    .contact-name-2{
+        font-size: 12px;
+    }
+    .info_suptitle{
+        font-size: 6px;
+    }
+    .info_text{
+        font-size: 12px;
+    }
+    .information-3{
+        font-size: 12px;
+    }
+    .con{
+        display: block;
+        position: relative;
+        font-size: 6px;
+    }
+    .h4-{
+        font-size: 12px;
+    }
+    .links{
+        font-size: 8px;
+    }
+    .icon-e{
+        font-size: 12px;
+    }
+    .videos{
+        font-size: 12px;
+    }
+    .codew{
+        font-size: 12px;
+    }
+}
+@media(max-width: 376px){
+    .me_name{
+        margin-top: 50px;
+        font-size: 15px;
+    }
+    .me_subname{
+        font-size: 12px;
+    }
+    .contact-name{
+        margin-top: 50px;
+        font-size: 14px;
+    }
+    .contact-name-2{
+        margin-top: 10px;
+        font-size: 25px;
+    }
+    .info_suptitle{
+        font-size: 8px;
+    }
+    .info_text{
+        font-size: 13px;
+    }
+    .information-3{
+        font-size: 12px;
+    }
+    .con{
+        display: block;
+        position: relative;
+        font-size: 8px;
+    }
+
+    .h4-{
+        font-size: 10px;
+    }
+    .links{
+        font-size: 8px;
+    }
+    .icon-e{
+        font-size: 12px;
+    }
+    .videos{
+        font-size: 12px;
+    }
+    .codew{
+        font-size: 12px;
+    }
+}
