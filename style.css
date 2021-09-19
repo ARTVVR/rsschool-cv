@@ -24,46 +24,35 @@ h1, h2{
     margin:0;
 }
 .sector1{
-    max-width: 100%;
     background: #1A1A1A;
     color:#DCC7B4;
-    flex:0 0 20%;
-    position: relative;
+    width: 20%;
 }
 .sector2{
-    max-width: 100%;
     background-image: url("./images/iam.jpg");
     margin: 0 auto;
     color:#DCC7B4;
     background-size: cover;
     background-position: center;
-    position: relative;
-    flex:0 0 26%;
-    min-height: 150px;
+    width:26%;
 }
 .sector3{
-    display:inline;
-    float:left;
-    max-width: 100%;
     background: #1A1A1A;
     color:#DCC7B4;
-    flex:0 0 54%;
-    position: relative;
+    width: 54%;
 }
 .container-0{
     display:flex;
 }
 .container{
-    position: relative;
     width: 100%;
     height: 100%;
 }
 .container-2{
-    width: 55%;
+    width: 100%;
 }
-.container-3{
-    
-    width: 56%;
+.container-3{ 
+    width: 100%;
 }
 ul,li{
     list-style-type: none;
@@ -272,112 +261,30 @@ i{
     text-align: center;
 }
 @media (max-width: 1200px){
-    .me_name{
-        font-size: 30px;
+    .box{
+        flex-wrap: wrap;
+        width: 100%;
     }
-    .me_subname{
-        font-size: 15px;
-    }
-    .contact-name{
-        font-size: 30px;
-    }
-}
-
-@media(max-width: 992px){
-    .me_name{
-        font-size: 18px;
-    }
-    .me_subname{
-        font-size: 9px;
-    }
-    .contact-name{
-        font-size: 18px;
-    }
-    .contact-name-2{
-        font-size: 18px;
-    }
-    .info_suptitle{
-        font-size: 12px;
-    }
-    .info_text{
-        font-size: 18px;
-    }
-    .information-3{
-        font-size: 18px;
-    }
-    .con{
-        font-size: 9px;
-    }
-    .h4-{
-        font-size: 18px;
-    }
-    .links{
-        font-size: 12px;
-    }
-    .icon-e{
-        font-size: 20px;
-    }
-}
-
-@media(max-width: 767px){
     .sector1{
-        display: block;
-        position: relative;
+        width: 50%;
+    }
+    .sector2{
+        width: 50%;
+    }
+    .sector3{
+        margin:0 auto;
+        width: 100%;
+    }
+    code{
+        width: 100%;
+    }
+    .video-cvv{
+        width: 95%;
+        margin-left: 10%;
     }
     .me_name{
         margin-top: 50px;
-        font-size: 12px;
-    }
-    .me_subname{
-        font-size: 6px;
-    }
-    .contact-name{
-        font-size: 12px;
-    }
-    .contact-name-2{
-        font-size: 12px;
-    }
-    .info_suptitle{
-        font-size: 6px;
-    }
-    .info_text{
-        font-size: 12px;
-    }
-    .information-3{
-        font-size: 12px;
-    }
-    .con{
-        display: block;
-        position: relative;
-        font-size: 6px;
-    }
-    .h4-{
-        font-size: 12px;
-    }
-    .links{
-        font-size: 8px;
-    }
-    .icon-e{
-        font-size: 12px;
-    }
-    .videos{
-        font-size: 12px;
-    }
-    .codew{
-        font-size: 12px;
-    }
-}
-@media(max-width: 376px){
-    .me_name{
-        margin-top: 50px;
-        font-size: 15px;
-    }
-    .me_subname{
-        font-size: 12px;
-    }
-    .contact-name{
-        margin-top: 50px;
-        font-size: 14px;
+        font-size: 30px;
     }
     .contact-name-2{
         margin-top: 10px;
@@ -390,24 +297,129 @@ i{
         font-size: 13px;
     }
     .information-3{
-        font-size: 12px;
+        font-size: 20px;
     }
     .con{
-        display: block;
-        position: relative;
-        font-size: 8px;
+        font-size: 18px;
     }
-
     .h4-{
-        font-size: 10px;
+        font-size: 18px;
     }
     .links{
-        font-size: 8px;
+        font-size: 15px;
     }
     .icon-e{
-        font-size: 12px;
+        font-size: 15px;
     }
     .videos{
+        margin-bottom: 30px;
+        font-size: 17px;
+    }
+    .codew{
+        font-size: 17px;
+    }
+}
+@media(max-width: 767px){
+    .box{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .sector1{
+        width: 50%;
+    }
+    .sector2{
+        width: 50%;
+    }
+    .sector3{
+        margin:0 auto;
+        width: 100%;
+    }
+    code{
+        width: 100%;
+    }
+    .video-cvv{
+        width: 95%;
+        margin-left: 10%;
+    }
+    .me_name{
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    .contact-name{
+        font-size: 20px;
+    }
+    .contact-name-2{
+        margin-top: 10px;
+        font-size: 25px;
+    }
+    .info_suptitle{
+        font-size: 8px;
+    }
+    .info_text{
+        font-size: 13px;
+    }
+    .information-3{
+        font-size: 16px;
+    }
+    .con{
+        font-size: 11px;
+    }
+    .h4-{
+        font-size: 15px;
+    }
+    .links{
+        font-size: 12px;
+    }
+    .icon-e{
+        font-size: 15px;
+    }
+    .videos{
+        margin-bottom: 30px;
+        font-size: 12px;
+    }
+    .codew{
+        font-size: 12px;
+    }
+}
+@media(max-width: 376px){
+    .me_name{
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    .me_subname{
+        font-size: 12px;
+    }
+    .contact-name{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .contact-name-2{
+        margin-top: 10px;
+        font-size: 25px;
+    }
+    .info_suptitle{
+        font-size: 8px;
+    }
+    .info_text{
+        font-size: 13px;
+    }
+    .information-3{
+        font-size: 15px;
+    }
+    .con{
+        font-size: 8px;
+    }
+    .h4-{
+        font-size: 12px;
+    }
+    .links{
+        font-size: 12px;
+    }
+    .icon-e{
+        font-size: 15px;
+    }
+    .videos{
+        margin-bottom: 30px;
         font-size: 12px;
     }
     .codew{
