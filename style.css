@@ -8,12 +8,12 @@ body{
     background-color: black;
 }
 .all{
+    font-family: 'Archivo Black', sans-serif;
     overflow: hidden;
     max-width: 1600px;
     margin:0 auto;
 }
 .box{
-    font-family: 'Archivo Black', sans-serif;
     width: 100%;
     display: flex;
     margin: 0 auto;
@@ -89,11 +89,14 @@ hr{
     margin-bottom: 120px;
 }
 .codew{
-    margin-top: 100%;
+    margin-top: 100px;
     text-align: center;
     font-size: 25px;
     text-decoration: none;
     color: rgb(220,199,180);
+}
+.videos{
+    margin-top: 50px;
 }
 .codew:hover{
     background-color: #CD9245;
@@ -211,24 +214,52 @@ i{
 
 .box-2{
     display: flex;
-    border-top: 10px solid rgb(136, 134, 132);
+    border-top: 5px solid rgb(136, 134, 132);
     width: 100%;
-    height: 100vh;;
+    height: 48%;
     background: #1A1A1A;
 }
 .sector4{
     width: 46%;
-    height: 100vh;;
+    height: 48%;
 }
 .sector5{
     width: 54%;
-    height: 100vh;;
+    height: 48%;
 }
 .javascript{
     height: 375px;
     font-size: 25px;
 }
-
+/*-----------------FOOTER----------------*/
+.foot-trans{
+    width:10%;
+}
+.foot-transs{
+    width:20%;
+}
+.box-3{
+    background-color: #74542b;
+    width: 100%;
+    margin:0 auto;
+    display: flex;
+}
+.foot{
+    text-align: center;
+    letter-spacing: 100px;
+}
+.foot-trans:hover{
+    transform: scale(1.03);
+}
+.foot-transs:hover{
+    transform: scale(1.03);
+}
+.artvvr{
+    color: rgb(65, 64, 64);
+    width: 100%;
+    background-color: #74542b;
+    text-align: center;
+}
 @media(max-width: 1024px){
     .me_name{
         font-size: 30px;
@@ -278,8 +309,9 @@ i{
     }
 }
 
-@media(max-width: 500px){
+@media(max-width: 426px){
     .me_name{
+        margin-top: 50px;
         font-size: 12px;
     }
     .me_subname{
@@ -307,10 +339,16 @@ i{
         font-size: 12px;
     }
     .links{
-        font-size: 6px;
+        font-size: 8px;
     }
     .icon-e{
-        font-size: 9px;
+        font-size: 12px;
+    }
+    .videos{
+        font-size: 12px;
+    }
+    .codew{
+        font-size: 12px;
     }
 }
 @media(max-width: 376px){
