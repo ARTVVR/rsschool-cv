@@ -32,7 +32,7 @@ h1, h2{
 }
 .sector2{
     max-width: 100%;
-    background-image: url("/images/iam.jpg");
+    background-image: url("./images/iam.jpg");
     margin: 0 auto;
     color:#DCC7B4;
     background-size: cover;
