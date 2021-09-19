@@ -1,38 +1,144 @@
+.video-cvv{
+    width:100%;
+}
+html {
+    scroll-behavior: smooth;
+}
 body{
-    background-color:black;
+    background-color: black;
 }
-.body-2{
-    display: flex;
+.all{
+    overflow: hidden;
+    max-width: 1600px;
+    margin:0 auto;
 }
-/* --------------ШАПКА-------------------------------------------------------- */
-.titles{
+.box{
     font-family: 'Archivo Black', sans-serif;
-    position: relative;
-    color:rgb(220,199,180);
-    font-size: 50px;
     width: 100%;
-    top:10px;
+    display: flex;
+    margin: 0 auto;
+    color: #666;
+
 }
-.myphoto{
-    width:400px;
-    height:760px;
-    background:url(/images/iam.jpg);
-    margin-top: 10px;
+h1, h2{
+    margin:0;
 }
-h2{
-    text-shadow: -10px 2px 30px black;
+.sector1{
+    width:20%;
+    background: #1A1A1A;
+    color:#DCC7B4;
+}
+.sector2{
+    width:26%;
+    background: url("/images/iam.jpg");
+    margin: 0 auto;
+    color:#DCC7B4;
+    background-repeat:round;
+    background-size: cover;
+}
+.sector3{
+    width:54%;
+    background: #1A1A1A;
+    color:#DCC7B4;
+}
+.container-0{
+    display:flex;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+.container-2{
+    width: 55%;
+}
+.container-3{
+    width: 56%;
+}
+ul,li{
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+.cv{
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(220,199,180);
+}
+.videos:hover{
+    background-color: #CD9245;
+    color:rgb(66, 66, 66);
+}
+hr{
+    border: 5px solid rgb(136, 134, 132);
+    background-color: rgb(136, 134, 132);
+}
+.contact-name-block{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 10px solid rgb(136, 134, 132);
+    border-bottom: 10px solid rgb(136, 134, 132);
+}
+.logo-avv{
+    margin-top:100px ;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    display: block;
+    margin-bottom: 120px;
+}
+.codew{
+    margin-top: 100%;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(220,199,180);
+}
+.codew:hover{
+    background-color: #CD9245;
+    color:rgb(66, 66, 66);
+}
+.codew2{
+    text-decoration: none;
+}
+.logo-avv:hover{
+    transform: scale(1.03);
+}
+.logo-avvv{
+    width: 100%;
+}
+.h4-{
+    font-size: 20px;
+    color:#CD9245;
     text-align: center;
 }
-.developer{
-    color:rgb(44, 44, 44);
-    font-size:15px;
-    width:110px;
-    margin:0 auto;
-    line-height: 30px;
-    text-shadow: -10px 2px 30px black;
+.icon-e{
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
 }
-.links li:hover{
-    transform: scale(1.3);
+.information-3{
+    height: 150px;
+    margin-top:15px;    
+    color:rgb(66, 66, 66);
+    font-size: 20px;
+    text-align:center;
+}
+.education-block-2{
+    margin-left: 20px;
+}
+.contact-name{
+    text-align: center;
+    font-size: 40px;
+    line-height: 144px;
+}
+.contact-name-2{
+    text-align: center;
+    font-size: 40px;
+}
+ul.links li{
+    display: inline-block;   
 }
 .links{
     font-size: 15px;
@@ -40,147 +146,219 @@ h2{
     line-height: 30px;
     letter-spacing: 10px;
 }
+.links li:hover{
+    transform: scale(1.3);
+}
+.contact-list{
+    color: #3A3A31;
+}
+.con:hover{
+    background-color: #CD9245;
+    color:rgb(66, 66, 66);
+}
+ul>li i {
+    width: 10%;
+  }
+.con{
+    color:rgb(66, 66, 66);
+    text-align: left;
+    max-width: 100%;
+}
+.me_title{
+    width: 100%;
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.me_subname{
+    text-align: center;
+    font-size: 15px;
+    color:rgb(44, 44, 44);
+    text-shadow: -10px 2px 30px black;
+}
 i{
     color: rgb(220,199,180);
 }
-ul.links li{
-    display: inline-block;   
-}
-
-/* --------------ОСНОВА-------------------------------------------------------- */
-.container-2{
-    display: flex;   
-}
-.container-3{
-    display: flex;
-}
-hr{
-    border: 4px solid rgb(136, 134, 132);
-    background-color: rgb(136, 134, 132);
-}
-.wrapper{
-    background-color: rgb(26, 26, 26);
-    width: 910px;
-    height: 730px;
-    margin-top: 25px;
-}
-h1{
+.me_name{
     text-align: center;
-    color: rgb(220,199,180);
-}
-.h1-1{
-    font-family: 'Archivo Black', sans-serif;
-    font-size:40px;
-}
-.information{
-    color:#CD9245;
-    text-align: center;
-    letter-spacing: 2px;
-    line-height: 30px;
-}
-.information-2{
-    color:rgb(58, 58, 58);
-    font-size: 25px;
-    text-align: center;
-}
-.education{
-    width: 200px;
-    color:rgb(58, 58, 58);
-    font-size: 25px;
-}
-h3, h4, h6{
-    color:#CD9245;
-}
-.h4-{
-    font-size: 25px;
-}
-.icon-e{
-    line-height: 50px;
-    font-size: 25px;
-}
-.information-3{
-    margin-top:25px;    
-    color:rgb(66, 66, 66);
-    font-size: 25px;
-    text-align:justify;
-}
-.education-block{
-    width: 300px;
-    margin-left: 60px;
-    margin-top: 13px;
-}
-.education-block-2{
-    width:300px;
-    margin-left:200px;
-    margin-top: 13px;
-}
-.education-block:hover{
-    transform: scale(1.01);
-}
-.education-block-2:hover{
-    transform: scale(1.01);
-}
-.skills-color{
-    color:rgb(220,199,180);
-    font-size:25px;
-}
-
-/* --------------Левая-Часть-------------------------------------------------------- */
-.left-side{
-    display: flex;
-    background-color: rgb(26, 26, 26);
-    width: 200px;
-    height:730px;
-    margin-top: 21px;
-}
-.contact{
-    width: 200px;
-}
-.contact-name{
-    font-family: 'Archivo Black', sans-serif;
-    color:rgb(220,199,180);
-    font-size: 25px;
-    text-align: center;
-    line-height: 144px;
-
-}
-.line-2{
-    margin-top: -3px;
+    text-shadow: -10px 2px 30px black;
+    font-size: 50px;
 }
 .information-4{
-    font-family: 'Archivo Black', sans-serif;
-    color: rgb(66, 66, 66);
+    margin-top: 5%;
     line-height: 40px;
-    font-size: 11px;
+    font-size: 13px;
     text-align: left;
     font-style: italic;
-    margin-top: 25px;
+    letter-spacing: 1px;
 }
-.information-5:hover{
-    background-color: #CD9245;
-    color: rgb(220,199,180);
+.info_suptitle{
+    color:#CD9245;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 70%;
 }
-.logo-avv{
-    margin-top: 200px;
-    margin-left: 40px;
-    width: 100px;
-    height: 100px;
+.info_text{
+    text-align: center;
+    margin:18px;
+    font-size: 20px;
+    color:rgb(66, 66, 66);
 }
-.logo-avv:hover{
-    transform: scale(1.2);
+/*--------------------------------------SECTOR-4---------------------*/
+
+.box-2{
+    display: flex;
+    border-top: 10px solid rgb(136, 134, 132);
+    width: 100%;
+    height: 100vh;;
+    background: #1A1A1A;
 }
-/*----------------FOOTER------------------------------------------*/
-.footer{
-    text-align: right;
-    font-size: 15px;
-    color: rgb(66, 66, 66);
+.sector4{
+    width: 46%;
+    height: 100vh;;
 }
-.vv{
-    color: #b12127;
-    font-style: italic;
+.sector5{
+    width: 54%;
+    height: 100vh;;
 }
-.art{
-    color:#bfbfbf;
-    font-style: italic;
+.javascript{
+    height: 375px;
+    font-size: 25px;
 }
-/*----------------ADAPTIVE------------------------------------------*/
+
+@media(max-width: 1024px){
+    .me_name{
+        font-size: 30px;
+    }
+    .me_subname{
+        font-size: 15px;
+    }
+    .contact-name{
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 768px){
+
+    .me_name{
+        font-size: 18px;
+    }
+    .me_subname{
+        font-size: 9px;
+    }
+    .contact-name{
+        font-size: 18px;
+    }
+    .contact-name-2{
+        font-size: 18px;
+    }
+    .info_suptitle{
+        font-size: 12px;
+    }
+    .info_text{
+        font-size: 18px;
+    }
+    .information-3{
+        font-size: 18px;
+    }
+    .con{
+        font-size: 9px;
+    }
+    .h4-{
+        font-size: 18px;
+    }
+    .links{
+        font-size: 12px;
+    }
+    .icon-e{
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 500px){
+    .me_name{
+        font-size: 12px;
+    }
+    .me_subname{
+        font-size: 6px;
+    }
+    .contact-name{
+        font-size: 12px;
+    }
+    .contact-name-2{
+        font-size: 12px;
+    }
+    .info_suptitle{
+        font-size: 6px;
+    }
+    .info_text{
+        font-size: 12px;
+    }
+    .information-3{
+        font-size: 12px;
+    }
+    .con{
+        font-size: 6px;
+    }
+    .h4-{
+        font-size: 12px;
+    }
+    .links{
+        font-size: 6px;
+    }
+    .icon-e{
+        font-size: 9px;
+    }
+}
+@media(max-width: 376px){
+    .me_name{
+        margin-top: 50px;
+        font-size: 15px;
+    }
+    .me_subname{
+        font-size: 12px;
+    }
+    .contact-name{
+        margin-top: 50px;
+        font-size: 14px;
+    }
+    .contact-name-2{
+        margin-top: 10px;
+        font-size: 25px;
+    }
+    .info_suptitle{
+        font-size: 8px;
+    }
+    .info_text{
+        font-size: 13px;
+    }
+    .information-3{
+        font-size: 12px;
+    }
+    .con{
+        font-size: 8px;
+        text-align: center;
+    }
+    .names{
+        text-align: center;
+        font-size: 8px;
+    }
+    .h4-{
+        font-size: 10px;
+    }
+    .links{
+        font-size: 8px;
+    }
+    .icon-e{
+        font-size: 12px;
+    }
+    .videos{
+        font-size: 12px;
+    }
+    .codew{
+        font-size: 12px;
+    }
+}
