@@ -1,6 +1,3 @@
-.video-cvv{
-    width:100%;
-}
 html {
     scroll-behavior: smooth;
 }
@@ -13,6 +10,36 @@ body{
     max-width: 1600px;
     margin:0 auto;
 }
+
+/*---------HEADER--------*/
+
+.burger{
+    width: 100%;
+    background-color:#1A1A1A ;
+}
+.head{
+    text-decoration: none;
+    color: #3d3d3d;
+}
+.head1{
+    display: inline;
+}
+.head:hover{
+    background-color: #CD9245;
+    color:rgb(66, 66, 66);
+}
+.menu0{
+    font-size: 30px;
+    text-align: center;
+    color:#DCC7B4;
+    padding: 30px;
+}
+.menu0 li{
+    padding: 20px;
+}
+
+/*---------MAIN--------*/
+
 .box{
     width: 100%;
     display: flex;
@@ -32,9 +59,11 @@ h1, h2{
     background-image: url("./images/iam.jpg");
     margin: 0 auto;
     color:#DCC7B4;
-    background-size: cover;
     background-position: center;
-    width:26%;
+    background-size: cover;
+    width: 26%;
+    height: auto;
+    max-width:100%;
 }
 .sector3{
     background: #1A1A1A;
@@ -211,20 +240,25 @@ i{
     color:rgb(66, 66, 66);
 }
 /*--------------------------------------SECTOR-4---------------------*/
-
+.video-cvv{
+    max-width: 100%;
+    width: 100%;
+}
 .box-2{
+    margin: auto;
+    max-width: 100%;
     display: flex;
     border-top: 5px solid rgb(136, 134, 132);
     width: 100%;
-    height: 48%;
     background: #1A1A1A;
 }
 .sector4{
-    width: 46%;
+    width: 50%;
     height: 48%;
 }
 .sector5{
-    width: 54%;
+    position: relative;
+    width: 56%;
     height: 48%;
 }
 .javascript{
@@ -261,6 +295,14 @@ i{
     text-align: center;
 }
 @media (max-width: 1200px){
+    .menu0{
+        font-size: 20px;
+        padding: 20px;
+    }
+    .javascript{
+        height: 60%;
+        font-size: 20px;
+    }
     .box{
         flex-wrap: wrap;
         width: 100%;
@@ -269,6 +311,7 @@ i{
         width: 50%;
     }
     .sector2{
+        height: 700px;
         width: 50%;
     }
     .sector3{
@@ -279,8 +322,7 @@ i{
         width: 100%;
     }
     .video-cvv{
-        width: 95%;
-        margin-left: 10%;
+        width: 100%;
     }
     .me_name{
         margin-top: 50px;
@@ -288,13 +330,13 @@ i{
     }
     .contact-name-2{
         margin-top: 10px;
-        font-size: 25px;
+        font-size: 30px;
     }
     .info_suptitle{
-        font-size: 8px;
+        font-size: 14px;
     }
     .info_text{
-        font-size: 13px;
+        font-size: 20px;
     }
     .information-3{
         font-size: 20px;
@@ -309,7 +351,7 @@ i{
         font-size: 15px;
     }
     .icon-e{
-        font-size: 15px;
+        font-size: 20px;
     }
     .videos{
         margin-bottom: 30px;
@@ -318,28 +360,55 @@ i{
     .codew{
         font-size: 17px;
     }
+    .box-2{
+        flex-wrap: wrap;
+    }
+    .sector4{
+        width: 100%;
+    }
+    .sector5{
+        width: 100%;
+    }
 }
-@media(max-width: 767px){
+@media(max-width: 768px){
+    .menu0{
+        font-size: 14px;
+        padding: 5px;
+    }
+    .javascript{
+        width: 100%;
+        height: 70%;
+        font-size: 16px;
+    }
     .box{
         flex-wrap: wrap;
         width: 100%;
+    }
+    .box-2{
+        flex-wrap: wrap;
     }
     .sector1{
         width: 50%;
     }
     .sector2{
+        height: 500px;
         width: 50%;
     }
     .sector3{
         margin:0 auto;
         width: 100%;
     }
+    .sector4{
+        width: 100%;
+    }
+    .sector5{
+        width: 100%;
+    }
     code{
         width: 100%;
     }
     .video-cvv{
-        width: 95%;
-        margin-left: 10%;
+        width: 100%;
     }
     .me_name{
         margin-top: 50px;
@@ -380,8 +449,19 @@ i{
     .codew{
         font-size: 12px;
     }
+    .artvvr{
+        font-size: 7px;
+    }
 }
 @media(max-width: 376px){
+    .menu0{
+        font-size: 5px;
+        padding: 13px;
+    }
+    .javascript{
+        height: 70%;
+        font-size: 12px;
+    }
     .me_name{
         margin-top: 50px;
         font-size: 20px;
@@ -424,5 +504,8 @@ i{
     }
     .codew{
         font-size: 12px;
+    }
+    .artvvr{
+        font-size: 5px;
     }
 }
