@@ -15,22 +15,24 @@
     <title>CV</title>
 </head>
 <body>
-    <div id="top" class="all">
+    <div class="all">
         <header class="burger">
-            <nav class="menu">
-                <ul class="menu0">
-                    <li class="head1"><a class="head" href="#top">ABOUT ME</a></li>
-                    <li class="head1"><a class="head" href="#js">CODE EXAMPLE</a></li>
-                    <li class="head1"><a class="head" href="#video-cv">VIDEO CV</a></li>
-                    <li class="head1"><a class="head" href="#git">GIT HUB</a></li>
-                </ul>
-            </nav>
+            <div class="burger1">
+                <a href="#" class="bt" onclick='bt()'><span class="bl"></span></a>
+                <nav class="menu">
+                    <ul class="menu0">
+                        <li class="head1"><a class="head" href="#top">ABOUT ME</a></li>
+                        <li class="head1"><a class="head" href="#video-cv">VIDEO CV</a></li>
+                        <li class="head1"><a class="head" href="#git">GIT HUB</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
         <main class="box">
             <section class="sector1">
                 <div class="container">
                     <div class="contact-name-block">
-                        <h2 class="contact-name">CONTACT</h2>
+                        <h1 class="contact-name">CONTACT</h1>
                     </div>
                     <div class="information-4">
                     <ul class="contact-list">
@@ -59,7 +61,7 @@
             <section class="sector3">
             <div class="container">
                 <div class="contact-name-block">
-                    <h1 class="contact-name-2">ABOUT ME</h1>
+                    <h1 id="top" class="contact-name-2">ABOUT ME</h1>
                     <div class="info_suptitle">20 years / Belarus / Minsk</div>
                     <div class="info_text">
                         Hey! I am a beginner web developer from Belarus, Minsk, I am a 4th year university student. 
@@ -103,7 +105,7 @@
                             </ul>
                         <hr>
                         </div>
-                    <div id="video-cv" class="hobbies">
+                    <div class="hobbies">
                         <div class="education-block-2">
                             <p class="icon-e"><i class="fas fa-dumbbell"></i></p>
                             <h6 class="h4-">HOBBIES</h6>
@@ -136,7 +138,7 @@
                       }</code></pre>
             </div>
         </div>
-        <div class="sector5">
+        <div id="video-cv" class="sector5">
                 <iframe class="video-cvv" height ="400" src="https://www.youtube.com/embed/HFqiGPFkRUA" 
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -157,5 +159,6 @@
     </footer>
     </div>
     <script src="https://kit.fontawesome.com/7981b59fbe.js" crossorigin="anonymous"></script>
+    <script src ='./menu.js'></script>
 </body>
 </html>
