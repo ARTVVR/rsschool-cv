@@ -455,8 +455,9 @@ i{
 }
 @media(max-width: 376px){
     .menu0{
-        font-size: 5px;
-        padding: 13px;
+        vertical-align: middle;
+        font-size: 13px;
+        padding: 10px;
     }
     .javascript{
         height: 70%;
@@ -509,3 +510,60 @@ i{
         font-size: 5px;
     }
 }
+@media (max-width: 1000px) {
+    .burger1 {
+      display: block;
+      padding: 20px;
+    }
+    .bt {
+      display: block;
+      width: 30px;
+      height: 60px;
+      border-radius: 50%;
+      margin:0 auto;
+      margin-right: 10px;
+    }
+    .bl,
+    .bl::before,
+    .bl::after {
+      position: absolute;
+      top: 40px;
+      width: 40px;
+      height: 5px;
+      margin-left: 10px;
+      margin-top: 29px;
+      background-color: #8a5f26;
+    }
+  
+    .bl::before,
+    .bl::after {
+      content: "";
+      transition: 0.8s;
+    }
+    .bl::before {
+      transform: translate(-10px, -85px);
+    }
+    .bl::after {
+      transform: translate(-10px, -53px);
+    }
+ 
+    .act span:before {
+      top: -38px;
+      left: 0px;
+      transform: rotate(-48deg);
+    }
+    .act span:after {
+      top: -38px;
+      left: 0px;
+      transform: rotate(48deg);
+    }
+    .menu {
+        display: none;
+      }
+      .closed {
+        display: block;
+      }   
+      .act span {
+        height: 0px;
+      }
+  }
